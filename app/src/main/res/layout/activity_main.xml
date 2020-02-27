@@ -16,8 +16,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:textAlignment="center"
-        android:text="Apakah boleh suami dan istri kamu makan mie goreng pagi ini ? "
-        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:text="@string/judul"
         android:padding="10dp"
         android:textSize="20sp"
         android:textColor="#F12375"
@@ -53,7 +52,7 @@
         android:layout_marginBottom="16dp"
         android:background="#FF1100"
         android:textColor="#FFFFFF"
-        android:text="Tidak"
+        android:text="@string/btnTidak"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -66,7 +65,7 @@
         android:layout_marginBottom="16dp"
         android:background="#0FF517"
         android:textColor="#FFFFFF"
-        android:text="Boleh"
+        android:text="@string/btnIya"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/jawabanTidak" />
 </androidx.constraintlayout.widget.ConstraintLayout>
