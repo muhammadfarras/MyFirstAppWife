@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView hasil;
     private TextView textView;
-    private Integer jumlah = 0;
+    private Integer jumlah = 2;
     private Button jawabanIya;
     private Button jawabanTidak;
 
