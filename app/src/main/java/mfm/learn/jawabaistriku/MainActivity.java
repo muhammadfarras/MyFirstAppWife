@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 jumlah += 1;
-                String answer = "\n"+jumlah+". Iya kamu boleh makan mie sekarang";
+                String answer = "\n"+jumlah+". Iya kamu boleh makan mie sekarang sayang";
                 hasil.append(answer);
             }
         };
